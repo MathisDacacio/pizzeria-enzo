@@ -1,0 +1,28 @@
+.header {
+    background-color: #2e7d32; /* Vert foncé */
+    padding: 1rem 2rem;
+    color: white;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 2px;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: #d0ffd0;
+  }
+  
+  .active {
+    border-bottom: 2px solid white;
+  }
+  

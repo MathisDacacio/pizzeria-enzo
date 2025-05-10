@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Hero avec image de fond */
+  .hero {
+    background-image: url('/images/décorative/pizza1.webp');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .overlay h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  /* Sections */
+  .section, .sectionReverse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .sectionReverse {
+    flex-direction: row-reverse;
+  }
+  
+  .textBlock {
+    flex: 1;
+    min-width: 280px;
+    padding: 1rem;
+  }
+  
+  .imageBlock {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-width: 280px;
+    padding: 1rem;
+  }
+  
+  .img {
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .horaires {
+    margin-top: 1rem;
+    background: #f4f4f4;
+    padding: 1rem;
+    border-left: 4px solid #2e7d32;
+  }
+  
+  .horaires h4 {
+    margin-bottom: 0.5rem;
+  }
+  
