@@ -11,19 +11,19 @@ export default function Footer() {
       <div className={styles.content}>
         <div className={styles.location}>
           <h4>Pizzeria Enzo - Le Quesnoy</h4>
-          <p>123 Rue de la Pizza<br />75000 Paris</p>
-          <p>Tél : <a href="tel:+33123456789">01 23 45 67 89</a></p>
+          <p>19 Fbg Fauroeulx, 59530</p>
+          <p>Tél : <a href="tel:+33327421836">03 27 42 18 36</a></p>
         </div>
 
         <div className={styles.location}>
-          <h4>Pizzeria Enzo - Quartier Est</h4>
-          <p>87 Avenue des Saveurs<br />75012 Paris</p>
-          <p>Tél : <a href="tel:+33987654321">09 87 65 43 21</a></p>
+          <h4>Pizzeria Enzo - Le Cateau-Cambrésis</h4>
+          <p>4 Rue Théophile Boyer, 59360</p>
+          <p>Tél : <a href="tel:+33327770799">03 27 77 07 99</a></p>
         </div>
 
         <div className={styles.right}>
           <p className={styles.catchphrase}>
-            🍕 La meilleure pizza artisanale du quartier, avec amour et passion.
+            🍕 Découvrez les meilleures pizzas artisanales de votre quartier, cuites <br></br>sur pierre au feu de bois. Sur place, à emporter ou en livraison, savourez <br></br>des plats faits maison avec passion et des ingrédients frais, midi et soir.
           </p>
           <a href="/mentions-legales" className={styles.legal}>Mentions légales</a>
         </div>

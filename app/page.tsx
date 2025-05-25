@@ -7,7 +7,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className={styles.hero}>
         <div className={styles.overlay}>
-          <h1>Bienvenue chez Mario ! 🍕</h1>
+          <h1>Bienvenue chez les pizzerias Enzo! 🍕</h1>
         </div>
       </section>
 
