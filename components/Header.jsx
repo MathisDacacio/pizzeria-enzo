@@ -12,7 +12,6 @@ export default function Header() {
         <Link href="/" className={pathname === '/' ? styles.active : ''}>Accueil</Link>
         <Link href="/menu" className={pathname === '/menu' ? styles.active : ''}>Carte</Link>
         <Link href="/about" className={pathname === '/about' ? styles.active : ''}>À propos</Link>
-        <Link href="/contact" className={pathname === '/contact' ? styles.active : ''}>Contact</Link>
       </nav>
     </header>
   );

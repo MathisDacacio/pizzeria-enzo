@@ -9,7 +9,7 @@ import styles from '@styles/Layout.module.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Pizzeria Chez Mario',
+  title: 'Pizzeria Enzo',
   description: 'La meilleure pizza du quartier !',
 };
 

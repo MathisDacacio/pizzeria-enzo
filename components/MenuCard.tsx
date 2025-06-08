@@ -2,24 +2,20 @@ import styles from '@styles/MenuCard.module.css';
 
 interface MenuCardProps {
   name: string;
-  description?: string;
   type: string;
   image: string;
   ingredients?: string[];
   price?: number;
   magnets?: string[]; // ex: ['Végé', 'Épicé']
-  favoriteBy?: string[]; // ex: ['Chef', 'Serveur']
 }
 
 export default function MenuCard({
   name,
-  description,
   type,
   image,
   ingredients = [],
   price,
   magnets = [],
-  favoriteBy = [],
 }: MenuCardProps) {
   return (
     <div className={styles.card}>
@@ -29,7 +25,6 @@ export default function MenuCard({
         <h3>{name}</h3>
         <p className={styles.type}>{type}</p>
 
-        {description && <p className={styles.description}>{description}</p>}
 
         {ingredients.length > 0 && (
           <p className={styles.ingredients}>
@@ -50,12 +45,6 @@ export default function MenuCard({
             ))}
           </div>
         </div>
-
-        {favoriteBy.length > 0 && (
-          <p className={styles.favorites}>
-            ⭐ Favori de : {favoriteBy.join(', ')}
-          </p>
-        )}
       </div>
     </div>
   );
