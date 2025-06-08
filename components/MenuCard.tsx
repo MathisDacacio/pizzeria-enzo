@@ -23,8 +23,6 @@ export default function MenuCard({
 
       <div className={styles.content}>
         <h3>{name}</h3>
-        <p className={styles.type}>{type}</p>
-
 
         {ingredients.length > 0 && (
           <p className={styles.ingredients}>

@@ -10,17 +10,17 @@ const pizzaSubTypes = ['Les Traditionnelles', 'Les Gourmandes', 'Les Savoureuses
 
 // Prix par sous-type et taille (diamètre)
 const pizzaPrices = {
-  'Les Traditionnelles': { '24cm': 9, '30cm': 11, '40cm': 13 },
-  'Les Gourmandes': { '24cm': 11, '30cm': 13, '40cm': 15 },
-  'Les Savoureuses': { '24cm': 12, '30cm': 14, '40cm': 16 },
-  'Les Spécialités': { '24cm': 13, '30cm': 15, '40cm': 17 },
+  'Les Traditionnelles': { '24cm - Petite': 9.30, '30cm - Moyenne': 11.30, '40cm - Méga': 19.30 },
+  'Les Gourmandes': { '24cm - Petite': 10.30, '30cm - Moyenne': 12.30, '40cm - Méga': 21.70 },
+  'Les Savoureuses': { '24cm - Petite': 11.30, '30cm - Moyenne': 13.30, '40cm - Méga': 23.50 },
+  'Les Spécialités': { '24cm - Petite': 12.30, '30cm - Moyenne': 14.70, '40cm - Méga': 25.30 },
 }
 
 // Prix des ingrédients supplémentaires par taille
 const extraIngredientPrices = {
-  '24cm': 1,
-  '30cm': 1.5,
-  '40cm': 2,
+  '24cm': 1.20,
+  '30cm': 1.80,
+  '40cm': 2.40,
 }
 
 export default function MenuPage() {
